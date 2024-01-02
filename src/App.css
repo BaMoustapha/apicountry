@@ -25,8 +25,58 @@
 }
 
 .App-link {
-  color: #61dafb;
+  text-decoration: none;
+  color: none;
 }
+
+.lin{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.back{
+  text-decoration: none;
+  width: 250px;
+  color: aliceblue;
+}
+
+.dark-mode {
+    background-color: #1a1919;
+    color: white;
+    height: 100%;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.card {
+  width: 19rem;
+  height: 18rem;
+}
+
+
+input{
+  border: none;
+}
+
+select{
+  outline: none;
+  width: 170px;
+  border: none;
+}
+
+
+li{
+  list-style: none;
+}
+
+.li1{
+display: inline;
+gap: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
